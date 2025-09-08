@@ -93,7 +93,7 @@ TextureImporter:
       213: 5656009869529604061
     second: Wow Talent Art_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,9 +110,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +124,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,9 +147,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -158,6 +167,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -170,6 +180,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -815,9 +852,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Wow Talent Art_0: 3229754536098504686
+      Wow Talent Art_1: -292725976483780092
+      Wow Talent Art_10: -2623532461707535996
+      Wow Talent Art_11: 7055809521856867326
+      Wow Talent Art_12: 4980789772035774652
+      Wow Talent Art_13: 3739814288637560928
+      Wow Talent Art_14: 6470879013544517926
+      Wow Talent Art_15: -5497251501999945281
+      Wow Talent Art_16: -1542927507139156516
+      Wow Talent Art_17: 7769060117234014589
+      Wow Talent Art_18: -3262525243712199301
+      Wow Talent Art_19: 7789113000314123693
+      Wow Talent Art_2: 6511666942352173651
+      Wow Talent Art_20: -5213013787449764321
+      Wow Talent Art_21: -6419347606112875453
+      Wow Talent Art_22: -1206895269754845282
+      Wow Talent Art_23: 2072914379703195521
+      Wow Talent Art_24: -5377633343805072195
+      Wow Talent Art_25: 3187718015252688501
+      Wow Talent Art_26: 3699460953843139308
+      Wow Talent Art_27: -8311824152033397640
+      Wow Talent Art_28: -5981135167608660941
+      Wow Talent Art_29: 5656009869529604061
+      Wow Talent Art_3: -4333654956262008637
+      Wow Talent Art_4: 2453929118277059141
+      Wow Talent Art_5: 8044948999207211188
+      Wow Talent Art_6: -398414018795497454
+      Wow Talent Art_7: -6599171776019471600
+      Wow Talent Art_8: 3666839684486244886
+      Wow Talent Art_9: 2447648166943365345
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
